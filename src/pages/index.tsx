@@ -83,7 +83,7 @@ export default function Home() {
         "
         >
           <form
-            className="w-full flex gap-2"
+            className="w-full flex gap-2 items-center"
             onSubmit={(event) => handleSubmitTask(event)}
           >
             <input
@@ -93,7 +93,7 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="h-full w-[90px] flex items-center justify-center"
+              className="h-full w-[90px] flex items-center justify-center px-4 py-2 bg-zinc-800 rounded-lg"
             >
               Criar
             </button>
